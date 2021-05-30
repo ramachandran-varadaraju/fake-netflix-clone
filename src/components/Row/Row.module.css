@@ -1,38 +1,38 @@
-.row{
-    margin-left: 20px;
-    color: white;
+.row {
+  margin-left: 20px;
+  color: white;
 }
 
-.row__posters{
-    display: flex;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    padding: 20px;
-    padding-left: inherit;
+.row__posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+  padding-left: inherit;
 }
 
-.row__posters::-webkit-scrollbar{
-    display: none;
+.row__posters::-webkit-scrollbar {
+  display: none;
 }
 
-.row__poster{
-    object-fit: contain;
-    width: 100%;
-    max-height: 100px;
-    margin: 0.5rem 0.5rem;
-    transition: transform 450ms ease-in-out;
+.row__poster {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100px;
+  margin: 0.5rem 0.5rem;
+  transition: all 450ms ease-in-out;
 }
 
 .row__poster:hover,
 .row__poster:active,
-.row__poster:focus{
-    transform : scale(1.10)
+.row__poster:focus {
+  transform: scale(1.1);
 }
 
-.row__posterLarge{
-    max-height: 250px;
+.row__posterLarge {
+  max-height: 250px;
 }
 
-.row__posterLarge:hover{
-    transform: scale(1.11);
+.row__posterLarge:hover {
+  transform: scale(1.11);
 }

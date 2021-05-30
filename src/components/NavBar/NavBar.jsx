@@ -24,8 +24,18 @@ function NavBar() {
 
   return (
     <div className={new_classes}>
-      <img className={classes.nav__img} src={Netflix} alt="Netflix" />
-      <img className={classes.nav__img} src={Avatar} alt="Avatar" />
+      <img
+        style={{ cursor: "pointer" }}
+        className={classes.nav__img}
+        src={Netflix}
+        alt="Netflix"
+      />
+      <img
+        style={{ cursor: "pointer" }}
+        className={classes.nav__img}
+        src={Avatar}
+        alt="Avatar"
+      />
     </div>
   );
 }
